@@ -1,0 +1,1 @@
+def analyze_snapshot(url, ts): return {'tag_summary': [('html',1)], 'metadata': {}, 'internal_links': [], 'external_links': [], 'top_words': [], 'script_sources': []}

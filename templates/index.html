@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>WEBSAFE – Analýza webových stránek</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Web Analyzér</h1>
+    <input type="text" id="url" placeholder="Zadejte URL webu">
+    <button onclick="getVersions()">Získat verze</button>
+    <div id="version-selects"></div>
+
+    <button onclick="compare()">Porovnat vybrané verze</button>
+    <button onclick="analyze()">Analyzovat snapshot</button>
+    <pre id="result"></pre>
+
+    <h2>Média</h2>
+    <input type="text" id="media-file" placeholder="Zadejte cestu k souboru v media/">
+    <button onclick="analyzeMedia()">Analyzuj Média</button>
+    <pre id="media-result"></pre>
+  </div>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
